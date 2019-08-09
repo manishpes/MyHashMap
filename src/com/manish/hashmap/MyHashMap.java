@@ -10,7 +10,8 @@ public class MyHashMap {
         hashMap.put("Feb", "February2");//
         hashMap.put("Mar", "March");
         hashMap.put("Apr", "April");
-        hashMap.delete("Jan");//
+        hashMap.delete("Jan");
+        hashMap.delete("Feb");
         System.out.println(hashMap);
 //        hashMap.delete("Feb");
         System.out.println("value of jan "+hashMap.get("Jan"));
